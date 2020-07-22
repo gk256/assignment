@@ -155,9 +155,11 @@ html, body {
 }
 .navbar-nav li {
   padding-right: 20px;
+  text-align: right;
 }
 .nav-link {
   font-size: 1.1em !important;
+  color: #000;
 }
 .carousel-inner img {
   width: 100%;
@@ -221,9 +223,6 @@ html, body {
 .fun {
   width: 100%;
   margin-bottom: 2rem;
-}
-.gif {
-  max-width: 100%;
 }
 .social a {
   font-size: 4.5em;
@@ -292,7 +291,7 @@ hr.light-100 {
   padding-bottom: .2rem;
 }
 .carousel-caption .btn {
-  font-size: 95%
+  font-size: 95%;
   padding: 8px 14px;
 }
 .display-4 {
@@ -303,6 +302,7 @@ hr.light-100 {
     padding: 1.2rem;
   }
 }
+
 @media (max-width: 576px) {
 .carousel-caption {
   top: 40%;
@@ -314,7 +314,7 @@ hr.light-100 {
   font-size: 110%;
 }
 .carousel-caption .btn {
-  font-size: 90%
+  font-size: 90%;
   padding: 4px 8px;
 }
 .carousel-indicators {
@@ -326,6 +326,9 @@ hr.light-100 {
 .social a {
     font-size: 2em;
     padding: .7rem;
+  }
+.p {
+  font-size: 50%;
   }
 }
 
@@ -362,7 +365,7 @@ figure {
   background-size: cover;
   background-position: center center;
   -webkit-transform: translateZ(0);
-          transform: translateZ(0);
+  transform: translateZ(0);
   will-change: transform;
 }
 
@@ -387,11 +390,3 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
-
-
-
-
-
-
-
-
